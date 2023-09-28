@@ -14,10 +14,11 @@ body{
 }
 
 .container .album{
-    
+    padding-left: 50px;
     align-items: center;
     justify-content: left;
     display: flex;
+
 
 }
 
@@ -30,20 +31,10 @@ body{
     width:250px;
     background-color: rgb(21, 21, 21);
     border-radius: 50%;
-    
 }
 
-.container .album .cover{
-    height: 300px;
-    width:250px;
-    position: relative;
-    left: 25%;
-    background-color: black;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
+.text{
+    padding-left: 50px;
 }
 
 .container .album .outer .inner img{
@@ -59,15 +50,7 @@ body{
     display: flex;
 }
 
-.container .album .cover img{
-    height: 100%;
-    width: 100%;
-    
-}
-
-
-.container .album:hover .outer{
-    z-index: -1;
+.container .album .outer{
     animation: spin 7.5s 0.25s linear infinite;
     
 }

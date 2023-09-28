@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <title>Login</title>
 </head>
 
@@ -15,38 +14,11 @@
             <h1>Welcome to Angie's Secret Website</h1>
 
             <div class="input">
-                <h2>Please enter the passowrd</h2>
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Password" id="myInput">
-                <span class="eye" onclick="myFunction()">
-                    <i id="hide1" clas="bi bi-eye"></i>
-                    <i id="hide2" class="bi bi-eye-slash"></i>
-                </span>
-                
+                <input type="password" placeholder="please enter password here" id="myInput">
             </div>
             <a target="_self" href="./main.html" target="blank"><button type="button" class="login-button">LOGIN</button></a>
 
         </div>
-
-
-        <script>
-            function myFunction(){
-                var x = document.getElementById("myInput");
-                var y = document.getElementById("hide1");
-                var z = document.getElementById("hide2");
-            
-                if(x.type === 'password'){
-                    x.type = "text";
-                    y.style.display = block;
-                    z.style.display = "none";
-                }
-                else{
-                    x.type = "password";
-                    y.style.display = none;
-                    z.style.display = "block";
-                }
-            }
-        </script>
     </body>
 
 
